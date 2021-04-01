@@ -1,20 +1,20 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Civil Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Virtual Smart Structures & Dynamics Laboratory
+<b> Experiment|     <b> 10. Identification of High Frequency Axial Modes of Beam in "Free-Free" Condition Using Electro- mechanical Impedance(EMI) Technique
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+This experiment aims to identify the high frequency modes of an aluminium beam in “free-free” conditions (which otherwise cannot be captured by the usual vibration techniques) using the electromechanical impedance (EMI) technique.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Dr. Suresh Bhalla 
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  IIT Delhi
+<b> Email id|     <b>  sbhalla@civil.iitd.ac.in 
+<b> Department |  Civil Engineering
 
 ### Contributors List
 

@@ -8,5 +8,7 @@ Seismic/ Blast Induced Structural Damages”, NDT &E International, Vol. 37, No.
 23-33.
 
 <a href="images/piezo.pdf">
+  
 4. Literature on piezoelectric sensors.
+
 </a>

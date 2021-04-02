@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### This experiment aims to identify the high frequency modes of an aluminium beam in “free-free” conditions (which otherwise cannot be captured by the usual vibration techniques) using the electromechanical impedance (EMI) technique. 

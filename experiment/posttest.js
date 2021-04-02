@@ -89,22 +89,51 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1. First Question Here", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Answer 1", ///// Write the option 1 inside double quotes
+                b: "Answer 2", ///// Write the option 2 inside double quotes
+                c: "Answer 3", ///// Write the option 1 inside double quotes
+                d: "Answer 4", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
+/*
+        {
+            question: "2. The split tensile strength of the cylindrical concrete specimen is given by?", ///// Write the question inside double quotes
+            answers: {
+                a: "<img src='images/post5.png'/>", ///// Write the option 1 inside double quotes
+                b: "<img src='images/post6.png'/>", ///// Write the option 2 inside double quotes
+                c: "<img src='images/post7.png'/>", ///// Write the option 1 inside double quotes
+                d: "<img src='images/post8.png'/>", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+        {
+            question: "3. What is the orientation of failure plane in split tensile test assuming that the compressive load on the specimen is applied vertically?", ///// Write the question inside double quotes
+            answers: {
+                a: "Horizontal", ///// Write the option 1 inside double quotes
+                b: "Vertical", ///// Write the option 2 inside double quotes
+                c: "20' from Vertical", ///// Write the option 1 inside double quotes
+                d: "45' from Vertical", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+*/
+         
+
+         
+
+    // {
+    //   question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+    //   answers: {
+    //     a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
+    //     b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
+    //     c: "<img src='images/1c.PNG'>",      
+// },
+    //   correctAnswer: "c"                ///// Write the correct option inside double quotes
+    // },
 
 
         

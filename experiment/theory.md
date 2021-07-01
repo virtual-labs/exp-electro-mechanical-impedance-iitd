@@ -6,7 +6,9 @@ The user may acquire the plots of the conductance (G) and the susceptance (B) ag
 
 <img src="images/1.jpg" height="400px">
 
-Fig. 1 Experimental set up The user may plot G v/s frequency in excel. The peak in the plot is the resonance frequency of the beam. Following plot is expected if the experiment is correctly performed.
+Fig. 1 Experimental set up
+
+The user may plot G v/s frequency in excel. The peak in the plot is the resonance frequency of the beam. Following plot is expected if the experiment is correctly performed.
 
 <img src="images/th2.png" height="400px">
 
@@ -18,7 +20,5 @@ through this experiment with the theoretical frequency given below (Paz, 2004).
 
 <img src="images/th3.png" height="70px">
 
-Where E denotes the Young's modulus of elasticity of the beam, ρ the material density and Lhalf the half
-length of the beam. The user may compute the first ten frequencies by substituting n = 1, 2..., 10 and
-conclude as to which frequency is identified. 
+Where E denotes the Young's modulus of elasticity of the beam, ρ the material density and L<sub>half</a> the half length of the beam. The user may compute the first ten frequencies by substituting n = 1, 2..., 10 and conclude as to which frequency is identified. 
 

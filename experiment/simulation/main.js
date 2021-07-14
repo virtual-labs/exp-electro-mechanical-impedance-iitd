@@ -809,7 +809,7 @@ $("#note1").delay(400).slideDown("slow");
 {
   document.getElementById("n_a_1").style.visibility="visible";
   document.getElementById('ok').style.visibility="visible";
-  document.getElementById('ok_dwld').style.visibility="visible";
+  
   document.getElementById('s5_1').style.visibility="hidden";
   document.getElementById('s5_2').style.visibility="visible";
 
@@ -831,7 +831,7 @@ else
 function ok()
 {
 document.getElementById('ok').style.visibility="hidden";
-
+document.getElementById('ok_dwld').style.visibility="visible";
 document.getElementById('n_freq').style.visibility="visible";
   document.getElementById('s5_2').style.visibility="hidden";
   document.getElementById('s5_3').style.visibility="visible";

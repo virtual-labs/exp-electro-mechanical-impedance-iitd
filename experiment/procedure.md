@@ -1,13 +1,13 @@
 ### These steps will be followed for the experiment
 
-**PRE EXPERIMENT TASK**
+<!-- **PRE EXPERIMENT TASK**
 
 1) What is high frequency mode?
 2) What is LCR meter?
 3) What is conductance signature?
 4) What is conductance?
 5) What is susceptance?
-
+ -->
 
 Click on start experiment button to start the experiment.<br>
 <img src="images/s1.png"/><br>
@@ -87,8 +87,9 @@ Click on restart button.<br>
 <img src="images/s37.png"/><br>
  
 
-**POST EXPERIMENT TASK**
+<!-- **POST EXPERIMENT TASK**
 
 1) Plot graph of conductance v/s frequency in MS Excel.
 2) Calculate resonant frequency of the beam from the above plot.
 3) From the plot, identify the natural frequency of the beam and compare the frequency obtained with theoretical frequency. 
+ -->

@@ -7,7 +7,7 @@ Distributors, New Delhi.
 Seismic/ Blast Induced Structural Damages”, NDT &E International, Vol. 37, No. 1 (January), pp.
 23-33.
 
-4. <a href="images/piezo.pdf">Literature on piezoelectric sensors.</a>
+4. <a href="images/piezo.pdf">Literature on piezoelectric sensor.</a>
 
 5. For manual <a href="images/manual_exp2.pdf" target="_blank">click here</a>
 

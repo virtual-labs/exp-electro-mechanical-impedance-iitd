@@ -80,8 +80,8 @@
             
             <p class="incanvas" style="font-size:14px;  float:left; margin-left:20px;"><strong>2.</strong> A aluminium bar</p>
 
-            <p class="incanvas" style="font-size:14px; float:left; margin-left:20px;"><strong>3.</strong> Cello Tape</p>
-            <p class="incanvas" style="font-size:14px;  float:left; margin-left: 20px;"><strong>4.</strong> LCR Meter</p>
+            <p class="incanvas" style="font-size:14px; float:left; margin-left:20px;"><strong>3.</strong> Cello tape</p>
+            <p class="incanvas" style="font-size:14px;  float:left; margin-left: 20px;"><strong>4.</strong> LCR meter</p>
 
             <p class="incanvas" style="font-size:14px;  float:left; margin-left: 20px;"><strong>5.</strong> PZT patch </p>
         <!--     <p class="incanvas" style="font-size:15px; "><strong></strong></p>
@@ -345,10 +345,10 @@ transform: rotate(-90deg);
 <strong> Step-1: </strong> (g) Click on add button to bring a PZT patch.</span>
 
 <span id="s1_8" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
-<strong> Step-1: </strong> (h) Click on add button to bring bond.</span>
+<strong> Step-1: </strong> (h) Click on add button to bring epoxy.</span>
 
 <span id="s1_9" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
-<strong> Step-1: </strong> (i) Click on brush to apply bond on aluminium bar.</span>
+<strong> Step-1: </strong> (i) Click on brush to apply epoxy on aluminium bar.</span>
 
 <span id="s1_10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
 <strong> Step-1: </strong> (j) Click on PZT patch to place it on aluminium bar .</span>
@@ -802,6 +802,25 @@ transform: rotate(-90deg);
   visibility:hidden;
 "draggable="false"/>
 
+<img src="images/smokeeff.png"  id="smoke1" style=
+" position: absolute;
+  left: 145px;
+  top: 250px;
+  height: 135px;
+  display: none;
+
+"draggable="false"/>
+
+<img src="images/smokeeff.png"  id="smoke2" style=
+" position: absolute;
+    left: 170px;
+    top: 250px;
+    height: 135px;
+    display: none;
+
+"draggable="false"/>
+
+
 <img src="images/rod_wire.png"  id="rod_wire" style=
 " position: absolute;
   left: 791px;
@@ -1049,7 +1068,7 @@ transform: rotate(-90deg);
 <strong> Step-3: </strong> (a) Click on add button to bring a PZT patch.</span>
 
 <span id="s3_2" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
-<strong> Step-3: </strong> (b) Click on brush to apply bond on aluminium bar.</span>
+<strong> Step-3: </strong> (b) Click on brush to apply epoxy on aluminium bar.</span>
 
 <span id="s3_3" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
 <strong> Step-3: </strong> (c) Click on PZT patch to place it on aluminium bar.</span>
@@ -1166,6 +1185,7 @@ transform: rotate(-90deg);
   visibility:hidden;
 "draggable="false"/>
 
+
 <img src="images/soldering_image.png"  id="soldering_image1_canvas1b" style=
 " position: absolute;
     left: 233px;
@@ -1183,6 +1203,23 @@ transform: rotate(-90deg);
 "draggable="false"/>
 
 
+<img src="images/smokeeff.png" id="smoke3" style=
+" position: absolute;
+    left: 143px;
+    top: 250px;
+    height: 135px;
+    display: none;
+
+"draggable="false"/>
+
+<img src="images/smokeeff.png" id="smoke4" style=
+" position: absolute;
+    left: 170px;
+    top: 250px;
+    height: 135px;
+    display: none;
+
+"draggable="false"/>
 
 <img src="images/rod_wire.png"  id="rod_wire_canvas1b" style=
 " position: absolute;
@@ -1477,7 +1514,7 @@ transform: rotate(-90deg);
     position: absolute;
     font-size: 30px;
     left: 631px;
-    top: -2px;visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+    top: -2px;visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
 
 <input type="button" id="add_lcr" style="position: absolute;
     left: 668px;
@@ -1486,15 +1523,15 @@ transform: rotate(-90deg);
     font-size: 15px;
     padding: 3px;
     background-color: #2150a0;
-    color: white; visibility: ;" 
+    color: white; visibility: hidden;" 
     value="&nbsp;Add&nbsp;" onclick="add_lcr()"/>
 
 <!-- //////////////////////////////////// -->
 <span id="s4_1" style="visibility: ; position: absolute; left: 10px; top: 8px; font-size: 14px;">
-<strong> Step-4: </strong> (a) Click on add button to bring LCR.</span>
+<strong> Step-4: </strong> (a) Click on aluminium bar to hanging it on the stand.</span>
 
 <span id="s4_2" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
-<strong> Step-4: </strong> (b) Click on aluminium bar to hanging it on the stand.</span>
+<strong> Step-4: </strong> (b) Click on add button to bring LCR.</span>
 
 <span id="s4_3" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
 <strong> Step-4: </strong> (c) Click on black pins one by one to attach them with PZT patch wires.</span>
@@ -1519,17 +1556,17 @@ transform: rotate(-90deg);
 
  <img src="images/blackclipclose.png"  id="blackclipclose11" style=
 "   position: absolute;
-    left: 429px;
-    top: 446px;
+    left: 370px;
+    top: 450px;
     height: 22px;
-    transform: rotate(22deg);
+    transform: rotate(15deg);
     visibility: hidden;
     "draggable="false"/>
 
  <img src="images/blackclipclose.png"  id="blackclipclose21" style=
 "   position: absolute;
-    left: 431px;
-    top: 456px;
+    left: 376px;
+    top: 477px;
     height: 22px;
     transform: rotate(22deg);
     visibility: hidden;
@@ -1610,17 +1647,17 @@ transform: rotate(-90deg);
 
 <div id="black_color1" style="
     position: absolute;
-    left: 505px;
-    top: 463.5px;
+    left: 497px;
+    top: 466.5px;
     height: 2.2px;
-    width: 7px;
+    width: 9px;
     background-color: rgb(72 62 56);
     visibility: hidden;"></div>
 
 <div id="black_color2" style="
     position: absolute;
-    left: 505px;
-    top: 474px;
+    left: 500px;
+    top: 495px;
     height: 1.5px;
     width: 7px;
      background-color: rgb(72 62 56);
@@ -1646,17 +1683,17 @@ transform: rotate(-90deg);
 
  <img src="images/blackclipclose.png"  id="blackclipclose1" style=
 "   position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 464px;
+    top: 450px;
     height: 22px;
-    transform: rotate(22deg);
+    transform: rotate(20deg);
     visibility: hidden;
     "draggable="false"/>
 
  <img src="images/blackclipopen.png"  id="blackclipopen1" style=
 "   position: absolute;
-    left: 433px;
-    top: 447px;
+    left: 379px;
+    top: 450px;
     height: 22px;
     transform: rotate(22deg);
     visibility: hidden;
@@ -1665,7 +1702,7 @@ transform: rotate(-90deg);
  <img src="images/blackclipclose.png"  id="blackclipclose2" style=
 "   position: absolute;
     left: 0px;
-    top: 0px;
+    top: 456px;
     height: 22px;
     transform: rotate(22deg);
     visibility: hidden;
@@ -1674,8 +1711,8 @@ transform: rotate(-90deg);
 
  <img src="images/blackclipopen.png"  id="blackclipopen2" style=
 "   position: absolute;
-    left: 433px;
-    top: 457px;
+    left: 389px;
+    top: 477px;
     height: 22px;
     transform: rotate(22deg);
     visibility: hidden;
@@ -1731,16 +1768,15 @@ transform: rotate(-90deg);
     height: 263px;
     width: 29px;
    /* border: 1px solid black;*/
-    visibility: hidden;
+    visibility:  ;
 "draggable="false", onclick="full_image()"/> 
 
 
 <img src="images/transbox.png"  id="trans_lcron" style=
 "   position: absolute;
-    left: 574px;
-    top: 390px;
-    height: 18px;
-    width: 21px;
+    left: 568px;
+    top: 385px;
+    height: 33px;
    /* border: 1px solid black;*/
     visibility: hidden;
 "draggable="false", onclick="lcr_on()"/> 
@@ -1748,10 +1784,10 @@ transform: rotate(-90deg);
 <img src="images/transbox.png"  id="trans_pin1" style=
 "   position: absolute;
     left: 472px;
-    top: 443px;
+    top: 450px;
     height: 25px;
     width: 40px;
-   /* border: 1px solid black;*/
+    /*border: 1px solid black;*/
     visibility: hidden;
 "draggable="false", onclick="pin1()"/> 
 
@@ -1759,10 +1795,10 @@ transform: rotate(-90deg);
 <img src="images/transbox.png"  id="trans_pin2" style=
 "   position: absolute;
     left: 472px;
-    top: 459px;
+    top: 480px;
     height: 20px;
     width: 40px;
-   /* border: 1px solid black;*/
+    /*border: 1px solid black;*/
     visibility: hidden;
 "draggable="false", onclick="pin2()"/> 
 
@@ -1772,7 +1808,7 @@ transform: rotate(-90deg);
     top: 471px;
     height: 20px;
     width: 40px;
-   /* border: 1px solid black;*/
+    border: 1px solid black;
     visibility: hidden;
 "draggable="false", onclick="pin3()"/> 
 
@@ -1782,7 +1818,7 @@ transform: rotate(-90deg);
     top: 482px;
     height: 27px;
     width: 40px;
-   /* border: 1px solid black;*/
+    border: 1px solid black;
     visibility: hidden;
 "draggable="false", onclick="pin4()"/> 
 
@@ -1794,7 +1830,7 @@ transform: rotate(-90deg);
     font-size: 30px;
     left: 471px;
     top: 354px;
-    visibility:hidden;
+    visibility: ;
     color: blue;"><strong><i class="fa fa-arrow-left"></i></strong></span>
 
 <span class="blink_me" id="ar2_canvas1c" style="position: absolute;
@@ -1807,7 +1843,7 @@ transform: rotate(-90deg);
 <span class="blink_me" id="ar3_canvas1c" style="position: absolute;
     font-size: 30px;
     left: 442px;
-    top: 447px;
+    top: 470px;
      visibility:hidden;
      color: blue;"><strong><i class="fa fa-arrow-right"></i></strong></span>
 
@@ -1863,13 +1899,13 @@ transform: rotate(-90deg);
     padding-top: 5px;
     background-color: rgb(255, 255, 255, 0.6);">
 <span id="s5_1" style="visibility: ; position: absolute; left: 10px; top: 8px; font-size: 14px;">
-<strong> Step-5: </strong> (a) Select the values and click on submit buttton.</span>
+<strong> Step-5: </strong> (a) Click on ok button.</span>
 
 <span id="s5_2" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
-<strong> Step-5: </strong> (b) Click on ok button.</span>
+<strong> Step-5: </strong> (a) Click on ok button.</span>
 
 <span id="s5_3" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 14px;">
-<strong> Step-5: </strong> (c) Click on next button.</span>
+<strong> Step-5: </strong> (b) Click on next button.</span>
 <!-- ////////////////////////////////////////////////////// -->
 
 </div>
@@ -1892,8 +1928,8 @@ transform: rotate(-90deg);
     left: 80px;
     top: 109px;
     ">
-<option value="">---Select Option---</option>
-<option value="frm1"> 100 KHz </option>
+<!-- <option value="">---Select Option---</option> -->
+<option value="frm1"> 100 kHz </option>
 
 </select> 
 
@@ -1911,8 +1947,8 @@ transform: rotate(-90deg);
     left: 313px;
     top: 109px;
     ">
-<option value="">---Select Option---</option>
-<option value="frm2"> 120 KHz </option>
+<!-- <option value="">---Select Option---</option> -->
+<option value="frm2"> 120 kHz </option>
 
 </select> 
 
@@ -1929,7 +1965,7 @@ transform: rotate(-90deg);
     left: 607px;
     top: 109px;
     ">
-<option value="">---Select Option---</option>
+<!-- <option value="">---Select Option---</option> -->
 <option value="frm3"> 100 Hz </option>
 
 </select> 
@@ -1943,7 +1979,7 @@ transform: rotate(-90deg);
     color: #b62222;"><strong> First select the all values!</strong> </span>
 
 
-<input type="button" id="submit" style="position: absolute;left: 666px;top: 150px;cursor:pointer; font-size: 15px; background-color: #2150A0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="submit()"/>
+<!-- <input type="button" id="submit" style="position: absolute;left: 666px;top: 150px;cursor:pointer; font-size: 15px; background-color: #2150A0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="submit()"/> -->
 
 
 <div id="transwhite" style=" position: absolute;

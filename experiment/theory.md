@@ -21,4 +21,4 @@ through this experiment with the theoretical frequency given below (Paz, 2004).
 
 <img src="images/th3.png" height="70px">
 
-where <i>E</i> denotes the Young's modulus of elasticity of the beam, <i>ρ</i> the material density and <i>L<sub>half</sub></i> the half length of the beam. The user may compute the first ten frequencies by substituting n = 1, 2..., 10 and conclude as to which frequency is identified. 
+where <i>E</i> denotes the Young's modulus of elasticity of the beam, <i>ρ</i> the material density and <i>L<sub>half</sub></i> the half length of the beam. The user may compute the first ten frequencies by substituting <i>n</i> = 1, 2..., 10 and conclude as to which frequency is identified. 

@@ -17,8 +17,7 @@ Fig. 2 Expected plot of G vs frequency.
 </center>
 From the frequency plot, the user can identify the natural frequency of the beam in axial mode as the
 frequency corresponding to which peak in the G-plot. The user may compare the frequency obtained
-through this experiment with the theoretical frequency given below (Paz, 2004). 
-
+through this experiment with the theoretical frequency given below (Paz, 2004).<br>
 
 <img src="images/th3.png" height="70px">
 

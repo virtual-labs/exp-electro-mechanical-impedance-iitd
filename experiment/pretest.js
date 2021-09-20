@@ -102,7 +102,7 @@
         {
             question: "2. The user may acquire the plots of the ______ and ______ against frequency using the LCR meter.", ///// Write the question inside double quotes
             answers: {
-                a: "conductance and susceptance", ///// Write the option 1 inside double quotes
+                a: "Conductance and susceptance", ///// Write the option 1 inside double quotes
                 b: "Time and frequency", ///// Write the option 2 inside double quotes
                 c: "Length and height", ///// Write the option 1 inside double quotes
                 d: "Time and frequency domain data", ///// Write the option 2 inside double quotes

@@ -98,7 +98,7 @@
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
-/*
+                         
         {
             question: "2. The split tensile strength of the cylindrical concrete specimen is given by?", ///// Write the question inside double quotes
             answers: {
@@ -120,7 +120,7 @@
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
-*/
+
          
 
          

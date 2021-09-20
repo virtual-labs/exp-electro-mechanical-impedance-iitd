@@ -111,12 +111,12 @@
         },
 
         {
-            question: "3. Which of the following is allowed dimensions of cylindrical specimen for the split tensile test as per IS:5816? [ Diameter x Length]", ///// Write the question inside double quotes
+            question: "3. Free-free” condition is ensured by hanging the beam _____ through a cello tape,", ///// Write the question inside double quotes
             answers: {
-                a: "15cm x 30cm", ///// Write the option 1 inside double quotes
-                b: "20cm x 45cm", ///// Write the option 2 inside double quotes
-                c: "10cm x 20cm", ///// Write the option 1 inside double quotes
-                d: "15cm x 35cm", ///// Write the option 2 inside double quotes
+                a: "Vertically", ///// Write the option 1 inside double quotes
+                b: "Horizontally", ///// Write the option 2 inside double quotes
+                c: "Both a and b", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },

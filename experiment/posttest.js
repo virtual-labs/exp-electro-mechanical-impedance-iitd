@@ -133,14 +133,14 @@
         },                 
 
         {
-            question: "5. What is the orientation of failure plane in split tensile test assuming that the compressive load on the specimen is applied vertically?", ///// Write the question inside double quotes
+            question: "5. The user may compute the first ten frequencies by substituting n = _____ and conclude as to which frequency is identified.", ///// Write the question inside double quotes
             answers: {
-                a: "Horizontal", ///// Write the option 1 inside double quotes
-                b: "Vertical", ///// Write the option 2 inside double quotes
-                c: "20' from Vertical", ///// Write the option 1 inside double quotes
-                d: "45' from Vertical", ///// Write the option 2 inside double quotes
+                a: "n = 1, 2..., 13", ///// Write the option 1 inside double quotes
+                b: "n = 1, 2..., 11", ///// Write the option 2 inside double quotes
+                c: "n = 1, 2..., 12", ///// Write the option 1 inside double quotes
+                d: "n = 1, 2..., 10", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "b" ///// Write the correct option inside double quotes
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         }, 
 
          

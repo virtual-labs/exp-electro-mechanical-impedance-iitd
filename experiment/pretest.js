@@ -100,12 +100,12 @@
         },
 
         {
-            question: "2. What are the recognized ages of the test specimen at the time of the test in days as per IS:5816?", ///// Write the question inside double quotes
+            question: "2. The user may acquire the plots of the ______ and ______ against frequency using the LCR meter.", ///// Write the question inside double quotes
             answers: {
-                a: "7,28", ///// Write the option 1 inside double quotes
-                b: "7,31", ///// Write the option 2 inside double quotes
-                c: "10,29", ///// Write the option 1 inside double quotes
-                d: "9,30", ///// Write the option 2 inside double quotes
+                a: "conductance and susceptance", ///// Write the option 1 inside double quotes
+                b: "Time and frequency", ///// Write the option 2 inside double quotes
+                c: "Length and height", ///// Write the option 1 inside double quotes
+                d: "Time and frequency domain data", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },

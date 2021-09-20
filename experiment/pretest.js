@@ -143,16 +143,16 @@
             correctAnswer: "c" ///// Write the correct option inside double quotes
         },
 
-        {
-            question: "6. What is the apparatus required for the determination of split tensile strength of hardened concrete?", ///// Write the question inside double quotes
-            answers: {
-                a: "CTM", ///// Write the option 1 inside double quotes
-                b: "Rebound hammer", ///// Write the option 2 inside double quotes
-                c: "VICAT", ///// Write the option 1 inside double quotes
-                d: "flexural testing machine", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
+//         {
+//             question: "6. What is the apparatus required for the determination of split tensile strength of hardened concrete?", ///// Write the question inside double quotes
+//             answers: {
+//                 a: "CTM", ///// Write the option 1 inside double quotes
+//                 b: "Rebound hammer", ///// Write the option 2 inside double quotes
+//                 c: "VICAT", ///// Write the option 1 inside double quotes
+//                 d: "flexural testing machine", ///// Write the option 2 inside double quotes
+//             },
+//             correctAnswer: "a" ///// Write the correct option inside double quotes
+//         },
         
 
 

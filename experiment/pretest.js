@@ -89,12 +89,12 @@
 
 
     const myQuestions = [{
-            question: "1. First Question Here", ///// Write the question inside double quotes
+            question: "1. The dialogue box enables downloading the time and the ______ in the computer of the user.", ///// Write the question inside double quotes
             answers: {
-                a: "Answer 1", ///// Write the option 1 inside double quotes
-                b: "Answer 2", ///// Write the option 2 inside double quotes
-                c: "Answer 3", ///// Write the option 1 inside double quotes
-                d: "Answer 4", ///// Write the option 2 inside double quotes
+                a: "Material density", ///// Write the option 1 inside double quotes
+                b: "Low frequency", ///// Write the option 2 inside double quotes
+                c: "Frequency domain data", ///// Write the option 1 inside double quotes
+                d: "Length", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "c" ///// Write the correct option inside double quotes
         },

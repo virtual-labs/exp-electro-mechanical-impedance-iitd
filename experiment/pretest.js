@@ -122,10 +122,10 @@
         },
 
         {
-            question: "4. What is the minimum number of specimens needed for the test as per IS:5815?", ///// Write the question inside double quotes
+            question: "4. From the frequency plot, the user can identify the _____ of the beam in axial mode.", ///// Write the question inside double quotes
             answers: {
                 a: "4", ///// Write the option 1 inside double quotes
-                b: "3", ///// Write the option 2 inside double quotes
+                b: "natural frequency", ///// Write the option 2 inside double quotes
                 c: "5", ///// Write the option 1 inside double quotes
                 d: "6", ///// Write the option 2 inside double quotes
             },
@@ -133,12 +133,12 @@
         },
 
         {
-            question: "5. What is the nominal thickness of packing strips as per IS:516?", ///// Write the question inside double quotes
+            question: "5. The user may plot G v/s frequency in ?", ///// Write the question inside double quotes
             answers: {
-                a: "1 mm", ///// Write the option 1 inside double quotes
-                b: "2 mm", ///// Write the option 2 inside double quotes
-                c: "4 mm", ///// Write the option 1 inside double quotes
-                d: "6 mm", ///// Write the option 2 inside double quotes
+                a: "Pdf", ///// Write the option 1 inside double quotes
+                b: "MS Word", ///// Write the option 2 inside double quotes
+                c: "Excel", ///// Write the option 1 inside double quotes
+                d: "All of the above", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "c" ///// Write the correct option inside double quotes
         },

@@ -100,12 +100,12 @@
         },
                          
         {
-            question: "2. The split tensile strength of the cylindrical concrete specimen is given by?", ///// Write the question inside double quotes
+            question: "2. The user may compare the frequency obtained through this experiment with the _____ given below", ///// Write the question inside double quotes
             answers: {
-                a: "<img src='images/post5.png'/>", ///// Write the option 1 inside double quotes
-                b: "<img src='images/post6.png'/>", ///// Write the option 2 inside double quotes
-                c: "<img src='images/post7.png'/>", ///// Write the option 1 inside double quotes
-                d: "<img src='images/post8.png'/>", ///// Write the option 2 inside double quotes
+                a: "Theoretical frequency", ///// Write the option 1 inside double quotes
+                b: "Elasticity of the beam", ///// Write the option 2 inside double quotes
+                c: "Frequency of the beam", ///// Write the option 1 inside double quotes
+                d: "Voltage", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },

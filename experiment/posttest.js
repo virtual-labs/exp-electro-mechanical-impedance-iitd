@@ -94,24 +94,24 @@
                 a: "Negative electrode with Negative electrode", ///// Write the option 1 inside double quotes
                 b: "Positive electrode with Positive electrode", ///// Write the option 2 inside double quotes
                 c: "Negative electrode with Positive electrode", ///// Write the option 1 inside double quotes
-                d: "None of the above", ///// Write the option 2 inside double quotes
+                d: "Both a & b", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
                          
-        {
-            question: "2. The user may compare the frequency obtained through this experiment with the _____ given below", ///// Write the question inside double quotes
-            answers: {
-                a: "Theoretical frequency", ///// Write the option 1 inside double quotes
-                b: "Elasticity of the beam", ///// Write the option 2 inside double quotes
-                c: "Frequency of the beam", ///// Write the option 1 inside double quotes
-                d: "Voltage", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
+//         {
+//             question: "2. The user may compare the frequency obtained through this experiment with the _____ given below", ///// Write the question inside double quotes
+//             answers: {
+//                 a: "Theoretical frequency", ///// Write the option 1 inside double quotes
+//                 b: "Elasticity of the beam", ///// Write the option 2 inside double quotes
+//                 c: "Frequency of the beam", ///// Write the option 1 inside double quotes
+//                 d: "Voltage", ///// Write the option 2 inside double quotes
+//             },
+//             correctAnswer: "a" ///// Write the correct option inside double quotes
+//         },
 
         {
-            question: "3. <i>E</i> denotes the Young's modulus of _____ of the beam", ///// Write the question inside double quotes
+            question: "2. <i>E</i> denotes the Young's modulus of _____ of the beam", ///// Write the question inside double quotes
             answers: {
                 a: "Time", ///// Write the option 1 inside double quotes
                 b: "Elasticity", ///// Write the option 2 inside double quotes
@@ -122,7 +122,7 @@
         },
                          
         {
-            question: "4. The wires from the combination are connected to ?", ///// Write the question inside double quotes
+            question: "3. The wires from the combination are connected to ?", ///// Write the question inside double quotes
             answers: {
                 a: "PZT Patch", ///// Write the option 1 inside double quotes
                 b: "Aluminium Beam", ///// Write the option 2 inside double quotes
@@ -133,14 +133,14 @@
         },                 
 
         {
-            question: "5. The user may compute the first ten frequencies by substituting n = _____ and conclude as to which frequency is identified.", ///// Write the question inside double quotes
+            question: "4. What is the order of the identified frequency?", ///// Write the question inside double quotes
             answers: {
-                a: "n = 1, 2..., 13", ///// Write the option 1 inside double quotes
-                b: "n = 1, 2..., 11", ///// Write the option 2 inside double quotes
-                c: "n = 1, 2..., 12", ///// Write the option 1 inside double quotes
-                d: "n = 1, 2..., 10", ///// Write the option 2 inside double quotes
+                a: "Khz", ///// Write the option 1 inside double quotes
+                b: "MHz", ///// Write the option 2 inside double quotes
+                c: "Ghz", ///// Write the option 1 inside double quotes
+                d: "Hz", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "d" ///// Write the correct option inside double quotes
+            correctAnswer: "a" ///// Write the correct option inside double quotes
         }, 
 
          

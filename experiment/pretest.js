@@ -89,14 +89,14 @@
 
 
     const myQuestions = [{
-            question: "1. The dialogue box enables downloading the time and the ______ in the computer of the user.", ///// Write the question inside double quotes
+            question: "1. Free-Free condition is simulated in the experiment using", ///// Write the question inside double quotes
             answers: {
-                a: "Material density", ///// Write the option 1 inside double quotes
-                b: "Low frequency", ///// Write the option 2 inside double quotes
-                c: "Frequency domain data", ///// Write the option 1 inside double quotes
-                d: "Length", ///// Write the option 2 inside double quotes
+                a: "Cello tape", ///// Write the option 1 inside double quotes
+                b: "Hard support", ///// Write the option 2 inside double quotes
+                c: "Nutand Bolt", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "c" ///// Write the correct option inside double quotes
+            correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
         {
@@ -111,48 +111,37 @@
         },
 
         {
-            question: "3. Free-free” condition is ensured by hanging the beam _____ through a cello tape,", ///// Write the question inside double quotes
+            question: "3. From the frequency plot, the user can identify the _____ of the beam in axial mode.", ///// Write the question inside double quotes
             answers: {
-                a: "Vertically", ///// Write the option 1 inside double quotes
-                b: "Horizontally", ///// Write the option 2 inside double quotes
-                c: "Both a and b", ///// Write the option 1 inside double quotes
-                d: "None of the above", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-
-        {
-            question: "4. From the frequency plot, the user can identify the _____ of the beam in axial mode.", ///// Write the question inside double quotes
-            answers: {
-                a: "4", ///// Write the option 1 inside double quotes
-                b: "natural frequency", ///// Write the option 2 inside double quotes
-                c: "5", ///// Write the option 1 inside double quotes
-                d: "6", ///// Write the option 2 inside double quotes
+                a: "Damping ratio", ///// Write the option 1 inside double quotes
+                b: "Natural frequency", ///// Write the option 2 inside double quotes
+                c: "Mode shape", ///// Write the option 1 inside double quotes
+                d: "All of the above", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
         {
-            question: "5. The user may plot G v/s frequency in ?", ///// Write the question inside double quotes
+            question: "4. Out of G and B which is better for identification of frequency ", ///// Write the question inside double quotes
             answers: {
-                a: "Pdf", ///// Write the option 1 inside double quotes
-                b: "MS Word", ///// Write the option 2 inside double quotes
-                c: "Excel", ///// Write the option 1 inside double quotes
-                d: "All of the above", ///// Write the option 2 inside double quotes
+                a: "G", ///// Write the option 1 inside double quotes
+                b: "B", ///// Write the option 2 inside double quotes
+                c: "Either a & b ", ///// Write the option 1 inside double quotes
+                d: " Neither a & b", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "c" ///// Write the correct option inside double quotes
         },
 
-//         {
-//             question: "6. What is the apparatus required for the determination of split tensile strength of hardened concrete?", ///// Write the question inside double quotes
-//             answers: {
-//                 a: "CTM", ///// Write the option 1 inside double quotes
-//                 b: "Rebound hammer", ///// Write the option 2 inside double quotes
-//                 c: "VICAT", ///// Write the option 1 inside double quotes
-//                 d: "flexural testing machine", ///// Write the option 2 inside double quotes
-//             },
-//             correctAnswer: "a" ///// Write the correct option inside double quotes
-//         },
+        {
+            question: "5. In this experiment, the modes of vibration are", ///// Write the question inside double quotes
+            answers: {
+                a: "Low frequency", ///// Write the option 1 inside double quotes
+                b: "High frequency", ///// Write the option 2 inside double quotes
+                c: "Medium frequency", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
         
 
 

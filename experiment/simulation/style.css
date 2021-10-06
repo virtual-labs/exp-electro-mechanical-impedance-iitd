@@ -914,10 +914,10 @@ font-size: 20px;
 
 /*start Blinking*/
 
-/* .blink_me {
+.blink_me {
   animation: blinker 1s linear infinite;
   color: #2150a0;
-} */
+}
 
 @keyframes blinker {
   50% {

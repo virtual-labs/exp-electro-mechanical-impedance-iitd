@@ -842,6 +842,11 @@ document.getElementById("select_abc").innerHTML="";
 document.getElementById('transwhite').style.visibility="visible";
 document.getElementById('graph1').style.visibility="visible";
 document.getElementById('graph2').style.visibility="visible";
+	
+
+document.getElementById("graph_up1").style.animation="graph_up1 12s forwards";
+document.getElementById("graph_up2").style.animation="graph_up1 15s forwards";
+
 
 $("#note1").delay(400).slideDown("slow");
  setTimeout(function()

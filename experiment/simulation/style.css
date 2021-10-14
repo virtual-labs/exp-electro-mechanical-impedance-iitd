@@ -929,6 +929,19 @@ font-size: 20px;
 
 
 
+@keyframes graph_up1{
+  10%
+  {
+    left: 0px;
+  }
+   
+  100%
+  {
+    left: 310px;
+  }
+}
+
+
 
 
 /**

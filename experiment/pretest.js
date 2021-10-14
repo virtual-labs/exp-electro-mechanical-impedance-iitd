@@ -118,7 +118,7 @@
                 c: "Mode shape", ///// Write the option 1 inside double quotes
                 d: "All of the above", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "c" ///// Write the correct option inside double quotes
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         },
 
         {

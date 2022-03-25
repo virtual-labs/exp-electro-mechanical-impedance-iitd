@@ -12,16 +12,17 @@ Following plot is expected if the experiment is correctly performed replaced by 
 
 Fig. 1 Experimental set up
 </center>
-The user may plot G v/s frequency in excel. The peak in the plot is the resonance frequency of the beam. Following plot is expected if the experiment is correctly performed.
+The user may plot G Vs frequency in excel. The peak in the plot is the resonance frequency of the beam. Following plot is expected if the experiment is correctly performed.
 <center>
 <img src="images/th2.png" height="400px">
 
-Fig. 2 Expected plot of G vs frequency.
+Fig. 2 Expected plot of G Vs frequency.
 </center>
 From the frequency plot, the user can identify the natural frequency of the beam in axial mode as the
 frequency corresponding to which peak in the G-plot. The user may compare the frequency obtained
 through this experiment with the theoretical frequency given below (Paz, 2004).<br>
 <center>
 <img src="images/th3.png" height="40px">
+  
 </center>
 where <i>E</i> denotes the Young's modulus of elasticity of the beam, <i>ρ</i> the material density and <i>L<sub>half</sub></i> the half length of the beam. The user may compute the first ten frequencies by substituting <i>n</i> = 1, 2..., 10 and conclude as to which frequency is identified. 

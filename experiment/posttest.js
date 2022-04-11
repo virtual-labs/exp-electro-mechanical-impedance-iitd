@@ -89,39 +89,59 @@
 
 
     const myQuestions = [{
-            question: "1. First Question Here", ///// Write the question inside double quotes
+            question: "1. The two PZT patches are connected with each other such that", ///// Write the question inside double quotes
             answers: {
-                a: "Answer 1", ///// Write the option 1 inside double quotes
-                b: "Answer 2", ///// Write the option 2 inside double quotes
-                c: "Answer 3", ///// Write the option 1 inside double quotes
-                d: "Answer 4", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-/*
-        {
-            question: "2. The split tensile strength of the cylindrical concrete specimen is given by?", ///// Write the question inside double quotes
-            answers: {
-                a: "<img src='images/post5.png'/>", ///// Write the option 1 inside double quotes
-                b: "<img src='images/post6.png'/>", ///// Write the option 2 inside double quotes
-                c: "<img src='images/post7.png'/>", ///// Write the option 1 inside double quotes
-                d: "<img src='images/post8.png'/>", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-
-        {
-            question: "3. What is the orientation of failure plane in split tensile test assuming that the compressive load on the specimen is applied vertically?", ///// Write the question inside double quotes
-            answers: {
-                a: "Horizontal", ///// Write the option 1 inside double quotes
-                b: "Vertical", ///// Write the option 2 inside double quotes
-                c: "20' from Vertical", ///// Write the option 1 inside double quotes
-                d: "45' from Vertical", ///// Write the option 2 inside double quotes
+                a: "Negative electrode with Negative electrode", ///// Write the option 1 inside double quotes
+                b: "Positive electrode with Positive electrode", ///// Write the option 2 inside double quotes
+                c: "Negative electrode with Positive electrode", ///// Write the option 1 inside double quotes
+                d: "Both a & b", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
-*/
-         
+                         
+//         {
+//             question: "2. The user may compare the frequency obtained through this experiment with the _____ given below", ///// Write the question inside double quotes
+//             answers: {
+//                 a: "Theoretical frequency", ///// Write the option 1 inside double quotes
+//                 b: "Elasticity of the beam", ///// Write the option 2 inside double quotes
+//                 c: "Frequency of the beam", ///// Write the option 1 inside double quotes
+//                 d: "Voltage", ///// Write the option 2 inside double quotes
+//             },
+//             correctAnswer: "a" ///// Write the correct option inside double quotes
+//         },
+
+        {
+            question: "2. <i>E</i> denotes the Young's modulus of _____ of the beam", ///// Write the question inside double quotes
+            answers: {
+                a: "Time", ///// Write the option 1 inside double quotes
+                b: "Elasticity", ///// Write the option 2 inside double quotes
+                c: "Frequency", ///// Write the option 1 inside double quotes
+                d: "Electrode", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+                         
+        {
+            question: "3. The wires from the combination are connected to ?", ///// Write the question inside double quotes
+            answers: {
+                a: "PZT Patch", ///// Write the option 1 inside double quotes
+                b: "Aluminium Beam", ///// Write the option 2 inside double quotes
+                c: "LCR meter", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },                 
+
+        {
+            question: "4. What is the order of the identified frequency?", ///// Write the question inside double quotes
+            answers: {
+                a: "Khz", ///// Write the option 1 inside double quotes
+                b: "MHz", ///// Write the option 2 inside double quotes
+                c: "Ghz", ///// Write the option 1 inside double quotes
+                d: "Hz", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        }, 
 
          
 

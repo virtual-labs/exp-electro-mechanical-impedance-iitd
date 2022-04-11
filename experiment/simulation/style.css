@@ -726,16 +726,16 @@ font-size: 20px;
 
 @keyframes blackclipclose1
 {
-	0% { left: 718px; top: 446px; }
+	0% { left: 718px; top: 450px; }
 
-	100% { left: 474px; top: 446px;  }
+	100% { left: 474px; top: 450px;  }
 }
 
 @keyframes blackclipclose2
 {
-	0% { left: 718px; top: 456px; }
+	0% { left: 718px; top: 477px; }
 
-	100% { left: 474px; top: 456px;  }
+	100% { left: 473px; top: 477px;  }
 }
 
 @keyframes blackclipclose3
@@ -791,34 +791,34 @@ font-size: 20px;
 
 @keyframes blackclipclose1_move
 {
-	0% { left: 474px; top: 446px;}
+	0% { left: 464px; top: 450px;}
 
-	100% { left: 433px; top: 446px;}
+	100% { left: 378px; top: 450px;}
 }
 
 
 @keyframes black_color1
 {
-	0% { left: 505px; top: 463.5px;width: 7px;}
+	0% { left: 497px; top: 466.5px;width: 9px;}
 
-	100% { left: 465px; top: 463.5px;width: 42px;}
+	100% { left: 410px; top: 466.5px;width: 96px;}
 }
 
 
 
 @keyframes blackclipopen1_move
 {
-	0% { left: 433px; top: 447px;}
+	0% {left: 379px; top: 450px;}
 
-	100% { left: 431px; top: 447px;}
+	100% {left: 370px; top: 450px;}
 }
 
 
 @keyframes black_color1_again
 {
-	0% {left: 465px; top: 463.5px;width: 42px;}
+	0% {left: 410px; top: 466.5px;width: 96px;}
 
-	100% { left: 462px; top: 463.5px;width: 45px;}
+	100% {left: 404px; top: 466.5px; width: 102px;}
 }
 
 
@@ -827,25 +827,25 @@ font-size: 20px;
 
 @keyframes blackclipclose2_move
 {
-	0% { left: 474px; top: 456px;}
+	0% { left: 473px; top: 477px;}
 
-	100% { left: 433px; top: 456px;}
+	100% { left: 390px; top: 477px;}
 }
 
 
 @keyframes black_color2
 {
-	0% { left: 505px; top: 474px;width: 7px;}
+	0% { left: 500px; top: 495px;width: 7px;}
 
-	100% { left: 464px; top: 474px;width: 46px;}
+	100% { left: 409px; top: 495px;width: 98px;}
 }
 
 
 @keyframes blackclipopen2_move
 {
-	0% { left: 433px; top: 457px;}
+	0% { left: 389px; top: 477px;}
 
-	100% { left: 431px; top: 457px;}
+	100% { left: 376px; top: 477px;}
 }
 /*//////////////////////////////////////*/
 
@@ -927,6 +927,19 @@ font-size: 20px;
 }
 
 
+
+
+@keyframes graph_up1{
+  10%
+  {
+    left: 0px;
+  }
+   
+  100%
+  {
+    left: 310px;
+  }
+}
 
 
 

@@ -46,6 +46,12 @@ document.getElementById("canvas1c").style.visibility="hidden";
 
 document.getElementById("canvas2").style.visibility="visible";
 
+setTimeout(function()
+{
+	
+	submit()
+
+},1500);
 
 }
 
@@ -276,7 +282,8 @@ document.getElementById('s1_11').style.visibility="visible";
 
 },1000);
 }
-
+// $("#smoke1").fadeOut(1000);
+// $("#smoke2").fadeIn(1000);
 ////////////////canvas1a
 function add_rod()
 
@@ -384,10 +391,20 @@ document.getElementById('handrod_wire').style.visibility="visible";
 document.getElementById('handrod_wire').style.animation="handrod_wire1_zoom1 2s forwards";
 document.getElementById('silverhand').style.visibility="visible";
 document.getElementById('silverhand').style.animation="silverhand_wire1_zoom1 2.2s forwards";
-
+setTimeout(function()
+{
+// $("#smoke1").fadeOut(1000);
+$("#smoke1").fadeIn(1000);
+},1200);
 setTimeout(function()
 {
 document.getElementById('soldering_image1').style.visibility="visible";
+$("#smoke1").fadeOut(1000);
+
+setTimeout(function()
+{
+$("#smoke2").fadeIn(1000);
+},1000);
 
 document.getElementById('handrod_wire').style.animation="handrod_wire2_zoom1 2s forwards";
 document.getElementById('silverhand').style.animation="silverhand_wire2_zoom1 2s forwards";
@@ -397,6 +414,7 @@ setTimeout(function()
 document.getElementById('soldering_image2').style.visibility="visible";
 document.getElementById('handrod_wire').style.animation="handrod_wire2_back 2s forwards";
 document.getElementById('silverhand').style.animation="silverhand_wire2_back 2s forwards";
+$("#smoke2").fadeOut(1000);
 setTimeout(function()
 {
 document.getElementById('handrod_wire').style.visibility="hidden";
@@ -570,16 +588,25 @@ document.getElementById('handrod_wire_canvas1b').style.visibility="visible";
 document.getElementById('handrod_wire_canvas1b').style.animation="handrod_wire1_zoom1_canvas1b 2s forwards";
 document.getElementById('silverhand_canvas1b').style.visibility="visible";
 document.getElementById('silverhand_canvas1b').style.animation="silverhand_wire1_zoom1_canvas1b 2.2s forwards";
-
+setTimeout(function()
+{
+// $("#smoke1").fadeOut(1000);
+$("#smoke3").fadeIn(1000);
+},1200);
 setTimeout(function()
 {
 document.getElementById('soldering_image1_canvas1b').style.visibility="visible";
-
+$("#smoke3").fadeOut(1000);
 document.getElementById('handrod_wire_canvas1b').style.animation="handrod_wire2_zoom1_canvas1b 2s forwards";
 document.getElementById('silverhand_canvas1b').style.animation="silverhand_wire2_zoom1_canvas1b 2s forwards";
+setTimeout(function()
+{
+$("#smoke4").fadeIn(1000);
+},1200);
 
 setTimeout(function()
 {
+	$("#smoke4").fadeOut(1000);
 document.getElementById('soldering_image2_canvas1b').style.visibility="visible";
 document.getElementById('handrod_wire_canvas1b').style.animation="handrod_wire2_back_canvas1b 2s forwards";
 document.getElementById('silverhand_canvas1b').style.animation="silverhand_wire2_back_canvas1b 2s forwards";
@@ -623,18 +650,24 @@ document.getElementById('blackclipclose1').style.animation="blackclipclose1 2s f
 document.getElementById('blackclipclose2').style.visibility="visible";
 document.getElementById('blackclipclose2').style.animation="blackclipclose2 2s forwards";
 
-document.getElementById('blackclipclose3').style.visibility="visible";
-document.getElementById('blackclipclose3').style.animation="blackclipclose3 2s forwards";
 
-document.getElementById('blackclipclose4').style.visibility="visible";
-document.getElementById('blackclipclose4').style.animation="blackclipclose4 2s forwards";
+
+// document.getElementById('blackclipclose3').style.visibility="visible";
+// document.getElementById('blackclipclose3').style.animation="blackclipclose3 2s forwards";
+
+// document.getElementById('blackclipclose4').style.visibility="visible";
+// document.getElementById('blackclipclose4').style.animation="blackclipclose4 2s forwards";
 
 setTimeout(function()
 {
-document.getElementById('trans_fullimage').style.visibility="visible";
-document.getElementById('ar1_canvas1c').style.visibility="visible";
-document.getElementById('s4_1').style.visibility="hidden";
-document.getElementById('s4_2').style.visibility="visible";
+// document.getElementById('trans_fullimage').style.visibility="visible";
+// document.getElementById('ar1_canvas1c').style.visibility="visible";
+document.getElementById('s4_2').style.visibility="hidden";
+document.getElementById('s4_3').style.visibility="visible";
+document.getElementById('black_color1').style.visibility="visible";
+document.getElementById('black_color2').style.visibility="visible";
+document.getElementById('trans_pin1').style.visibility="visible";	
+document.getElementById('ar2_canvas1c').style.visibility="visible";
 },2000);
 }
 
@@ -654,15 +687,16 @@ setTimeout(function()
 document.getElementById('handfinger_left').style.visibility="hidden";
 document.getElementById('hand').style.visibility="hidden";
 
-document.getElementById('black_color1').style.visibility="visible";
-document.getElementById('black_color2').style.visibility="visible";
-document.getElementById('black_color3').style.visibility="visible";
-document.getElementById('black_color4').style.visibility="visible";
+// 
+// document.getElementById('black_color3').style.visibility="visible";
+// document.getElementById('black_color4').style.visibility="visible";
 
-document.getElementById('trans_pin1').style.visibility="visible";	
-document.getElementById('ar2_canvas1c').style.visibility="visible";
-document.getElementById('s4_2').style.visibility="hidden";
-document.getElementById('s4_3').style.visibility="visible";
+
+
+document.getElementById('s4_1').style.visibility="hidden";
+document.getElementById('s4_2').style.visibility="visible";
+document.getElementById('arw1_canvas1c').style.visibility="visible";	
+document.getElementById('add_lcr').style.visibility="visible";
 },3000);
 },2000);
 }
@@ -709,8 +743,14 @@ setTimeout(function()
 {
 document.getElementById('blackclipopen2').style.visibility="hidden";
 document.getElementById('blackclipclose21').style.visibility="visible";	
-document.getElementById('trans_pin3').style.visibility="visible";
-document.getElementById('ar4_canvas1c').style.visibility="visible";	
+// document.getElementById('trans_pin3').style.visibility="visible";
+// document.getElementById('ar4_canvas1c').style.visibility="visible";
+
+document.getElementById('s4_3').style.visibility="hidden";
+document.getElementById('s4_4').style.visibility="visible";
+
+document.getElementById('trans_lcron').style.visibility="visible";
+document.getElementById('ar6_canvas1c').style.visibility="visible";	
 
 },1000);
 },2000);
@@ -758,8 +798,7 @@ setTimeout(function()
 {
 document.getElementById('blackclipopen4').style.visibility="hidden";
 document.getElementById('blackclipclose41').style.visibility="visible";	
-document.getElementById('trans_lcron').style.visibility="visible";
-document.getElementById('ar6_canvas1c').style.visibility="visible";
+
 document.getElementById('s4_3').style.visibility="hidden";
 document.getElementById('s4_4').style.visibility="visible";
 	
@@ -798,11 +837,16 @@ var interval= document.getElementById('val3').value;
 if(from == "frm1" && to == "frm2" && interval == "frm3")
 {
 
-document.getElementById('submit').style.visibility="hidden";
+// document.getElementById('submit').style.visibility="hidden";
 document.getElementById("select_abc").innerHTML="";
 document.getElementById('transwhite').style.visibility="visible";
 document.getElementById('graph1').style.visibility="visible";
 document.getElementById('graph2').style.visibility="visible";
+	
+
+document.getElementById("graph_up1").style.animation="graph_up1 12s forwards";
+document.getElementById("graph_up2").style.animation="graph_up1 15s forwards";
+
 
 $("#note1").delay(400).slideDown("slow");
  setTimeout(function()
@@ -832,7 +876,7 @@ function ok()
 {
 document.getElementById('ok').style.visibility="hidden";
 document.getElementById('ok_dwld').style.visibility="visible";
-document.getElementById('n_freq').style.visibility="visible";
+// document.getElementById('n_freq').style.visibility="visible";
   document.getElementById('s5_2').style.visibility="hidden";
   document.getElementById('s5_3').style.visibility="visible";
 document.getElementById('arrow2').style.visibility="visible";

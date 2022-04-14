@@ -89,71 +89,59 @@
 
 
     const myQuestions = [{
-            question: "1. First Question Here", ///// Write the question inside double quotes
+            question: "1. Free-Free condition is simulated in the experiment using", ///// Write the question inside double quotes
             answers: {
-                a: "Answer 1", ///// Write the option 1 inside double quotes
-                b: "Answer 2", ///// Write the option 2 inside double quotes
-                c: "Answer 3", ///// Write the option 1 inside double quotes
-                d: "Answer 4", ///// Write the option 2 inside double quotes
+                a: "Cello tape", ///// Write the option 1 inside double quotes
+                b: "Hard support", ///// Write the option 2 inside double quotes
+                c: "Nutand Bolt", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "2. The user may acquire the plots of the ______ and ______ against frequency using the LCR meter.", ///// Write the question inside double quotes
+            answers: {
+                a: "Conductance and susceptance", ///// Write the option 1 inside double quotes
+                b: "Time and frequency", ///// Write the option 2 inside double quotes
+                c: "Length and height", ///// Write the option 1 inside double quotes
+                d: "Time and frequency domain data", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "3. From the frequency plot, the user can identify the _____ of the beam in axial mode.", ///// Write the question inside double quotes
+            answers: {
+                a: "Damping ratio", ///// Write the option 1 inside double quotes
+                b: "Natural frequency", ///// Write the option 2 inside double quotes
+                c: "Mode shape", ///// Write the option 1 inside double quotes
+                d: "All of the above", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "4. Out of G and B which is better for identification of frequency ", ///// Write the question inside double quotes
+            answers: {
+                a: "G", ///// Write the option 1 inside double quotes
+                b: "B", ///// Write the option 2 inside double quotes
+                c: "Either a & b ", ///// Write the option 1 inside double quotes
+                d: " Neither a & b", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "c" ///// Write the correct option inside double quotes
         },
-/*
-        {
-            question: "2. What are the recognized ages of the test specimen at the time of the test in days as per IS:5816?", ///// Write the question inside double quotes
-            answers: {
-                a: "7,28", ///// Write the option 1 inside double quotes
-                b: "7,31", ///// Write the option 2 inside double quotes
-                c: "10,29", ///// Write the option 1 inside double quotes
-                d: "9,30", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
 
         {
-            question: "3. Which of the following is allowed dimensions of cylindrical specimen for the split tensile test as per IS:5816? [ Diameter x Length]", ///// Write the question inside double quotes
+            question: "5. In this experiment, the modes of vibration are", ///// Write the question inside double quotes
             answers: {
-                a: "15cm x 30cm", ///// Write the option 1 inside double quotes
-                b: "20cm x 45cm", ///// Write the option 2 inside double quotes
-                c: "10cm x 20cm", ///// Write the option 1 inside double quotes
-                d: "15cm x 35cm", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-
-        {
-            question: "4. What is the minimum number of specimens needed for the test as per IS:5815?", ///// Write the question inside double quotes
-            answers: {
-                a: "4", ///// Write the option 1 inside double quotes
-                b: "3", ///// Write the option 2 inside double quotes
-                c: "5", ///// Write the option 1 inside double quotes
-                d: "6", ///// Write the option 2 inside double quotes
+                a: "Low frequency", ///// Write the option 1 inside double quotes
+                b: "High frequency", ///// Write the option 2 inside double quotes
+                c: "Medium frequency", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
-
-        {
-            question: "5. What is the nominal thickness of packing strips as per IS:516?", ///// Write the question inside double quotes
-            answers: {
-                a: "1 mm", ///// Write the option 1 inside double quotes
-                b: "2 mm", ///// Write the option 2 inside double quotes
-                c: "4 mm", ///// Write the option 1 inside double quotes
-                d: "6 mm", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "c" ///// Write the correct option inside double quotes
-        },
-
-        {
-            question: "6. What is the apparatus required for the determination of split tensile strength of hardened concrete?", ///// Write the question inside double quotes
-            answers: {
-                a: "CTM", ///// Write the option 1 inside double quotes
-                b: "Rebound hammer", ///// Write the option 2 inside double quotes
-                c: "VICAT", ///// Write the option 1 inside double quotes
-                d: "flexural testing machine", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-*/
         
 
 

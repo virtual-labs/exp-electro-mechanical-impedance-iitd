@@ -4,7 +4,6 @@ This virtual experiment simulates application of the EMI technique in identifyin
 The user may acquire the plots of the conductance (G) and the susceptance (B) against frequency using the LCR meter. The dialogue box enables downloading the time and the frequency domain data in the computer of the user.
 
 
-Following plot is expected if the experiment is correctly performed replaced by Typical plot shall be as shown in Fig 2.
 
 
 <center>

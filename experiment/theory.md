@@ -4,7 +4,6 @@ This virtual experiment simulates application of the EMI technique in identifyin
 The user may acquire the plots of the conductance (G) and the susceptance (B) against frequency using the LCR meter. The dialogue box enables downloading the time and the frequency domain data in the computer of the user.
 
 
-Following plot is expected if the experiment is correctly performed replaced by Typical plot shall be as shown in Fig 2.
 
 
 <center>
@@ -23,7 +22,7 @@ frequency corresponding to which peak in the G-plot. The user may compare the fr
 
 through this experiment with the theoretical frequency given below (Paz, 2004).<br>
 <center>
-<img src="images/th3.png" height="50px">
+<img src="images/th3.png" height="65px">
   
 </center>
 where <i>E</i> denotes the Young's modulus of elasticity of the beam, <i>ρ</i> the material density and <i>L<sub>half</sub></i> the half length of the beam. The user may compute the first ten frequencies by substituting <i>n</i> = 1, 2..., 10 and conclude as to which frequency is identified.
